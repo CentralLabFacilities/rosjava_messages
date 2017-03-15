@@ -31,20 +31,12 @@ generate_rosjava_messages(
     ar_track_alvar_msgs      # sniekum/ar_track_alvar_msgs
     uuid_msgs                # ros-geographic-info/unique_identifier
     yocs_msgs                # yujinrobot/yocs_msgs
-    concert_msgs             # robotics-in-concert/rocon_msgs
-    concert_service_msgs
     gateway_msgs
-    rocon_app_manager_msgs
-    rocon_device_msgs
-    rocon_interaction_msgs
-    rocon_service_pair_msgs
-    rocon_std_msgs
-    rocon_tutorial_msgs
     world_canvas_msgs
     scheduler_msgs
     move_base_msgs           # ros-planning/navigation
     map_store                # ros-planning/map_store
-
+    control_msgs             # https://github.com/ros-controls/control_msgs.git
     roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
 )
 
