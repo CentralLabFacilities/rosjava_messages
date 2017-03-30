@@ -40,6 +40,8 @@ generate_rosjava_messages(
     actionlib
     roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
     people_msgs
+    dynamic_reconfigure_msgs
+    dynamic_reconfigure
 )
 
 catkin_package()
