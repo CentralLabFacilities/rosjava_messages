@@ -42,6 +42,8 @@ generate_rosjava_messages(
     people_msgs
     dynamic_reconfigure_msgs
     dynamic_reconfigure
+    nodelet
+    nodelet_msgs
 )
 
 catkin_package()
