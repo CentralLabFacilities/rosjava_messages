@@ -51,7 +51,7 @@
   -->
   <build_depend>move_base_msgs</build_depend>           # ros-planning/navigation
   <build_depend>openni2_tracker_msgs</build_depend>
-  <build_depend>tf_msgs</build_depend>
+  <build_depend>tf</build_depend>
   <!-- Temporary requirement so move_base_msgs compiles - remove once
        https://github.com/ros-planning/navigation/pull/312 is fixed and released.
   -->
