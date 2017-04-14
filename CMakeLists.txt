@@ -28,6 +28,7 @@ generate_rosjava_messages(
     trajectory_msgs
     visualization_msgs
     tf2_msgs                 # geometry_experimental/tf2_msgs
+    tf_msgs
     ar_track_alvar_msgs      # sniekum/ar_track_alvar_msgs
     uuid_msgs                # ros-geographic-info/unique_identifier
     yocs_msgs                # yujinrobot/yocs_msgs
