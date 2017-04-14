@@ -44,6 +44,7 @@ generate_rosjava_messages(
     dynamic_reconfigure
     nodelet
     nodelet_msgs
+    openni2_tracker_msgs
 )
 
 catkin_package()
