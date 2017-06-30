@@ -47,6 +47,7 @@ generate_rosjava_messages(
     nodelet_msgs
     openni2_tracker_msgs
     tobi_world_msgs
+	naoqi-bridge-msgs
 )
 
 catkin_package()
