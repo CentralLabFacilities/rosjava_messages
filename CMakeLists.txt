@@ -48,7 +48,9 @@ generate_rosjava_messages(
     openni2_tracker_msgs
     tobi_world_msgs
     openpose_ros
-	naoqi_bridge_msgs
+	  naoqi_bridge_msgs
+    planning_scene_manager_msgs
+    object_recognition_msgs
 )
 
 catkin_package()
