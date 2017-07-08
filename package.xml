@@ -49,7 +49,7 @@
   <build_depend>openpose_ros</build_depend>
   <build_depend>naoqi_bridge_msgs</build_depend>
   <build_depend>planning_scene_manager_msgs</build_depend>
-  <build_depend>object_recognition_msgs</build_depend>
+  <build_depend>object_tracking_msgs</build_depend>
   <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store
   -->

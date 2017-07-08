@@ -50,7 +50,7 @@ generate_rosjava_messages(
     openpose_ros
 	  naoqi_bridge_msgs
     planning_scene_manager_msgs
-    object_recognition_msgs
+    object_tracking_msgs
 )
 
 catkin_package()
