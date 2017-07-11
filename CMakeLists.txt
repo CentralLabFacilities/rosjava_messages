@@ -52,6 +52,7 @@ generate_rosjava_messages(
     planning_scene_manager_msgs
     object_tracking_msgs
     augmented_manipulation_msgs
+    moveit_msgs
 )
 
 catkin_package()

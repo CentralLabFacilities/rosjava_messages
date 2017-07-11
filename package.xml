@@ -51,6 +51,8 @@
   <build_depend>planning_scene_manager_msgs</build_depend>
   <build_depend>object_tracking_msgs</build_depend>
   <build_depend>augmented_manipulation_msgs</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+
   <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store
   -->
