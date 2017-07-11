@@ -53,6 +53,7 @@ generate_rosjava_messages(
     object_tracking_msgs
     augmented_manipulation_msgs
     moveit_msgs
+    octomap_msgs
 )
 
 catkin_package()
