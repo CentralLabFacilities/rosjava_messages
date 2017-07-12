@@ -54,6 +54,7 @@ generate_rosjava_messages(
     augmented_manipulation_msgs
     moveit_msgs
     octomap_msgs
+    tobi_picknplace
 )
 
 catkin_package()
