@@ -54,6 +54,8 @@
   <build_depend>moveit_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
   <build_depend>tobi_picknplace</build_depend>
+  <build_depend>katana_msgs</build_depend>
+  <build_depend>grasp_viewer</build_depend>
 
   <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store

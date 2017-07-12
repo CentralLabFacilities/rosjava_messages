@@ -55,6 +55,8 @@ generate_rosjava_messages(
     moveit_msgs
     octomap_msgs
     tobi_picknplace
+    katana_msgs
+    grasp_viewer
 )
 
 catkin_package()
