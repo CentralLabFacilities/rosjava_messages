@@ -55,6 +55,7 @@ generate_rosjava_messages(
     moveit_msgs
     octomap_msgs
     biron_posture_execution_msgs
+    object_recognition_msg
 )
 
 catkin_package()
