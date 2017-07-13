@@ -54,9 +54,7 @@ generate_rosjava_messages(
     augmented_manipulation_msgs
     moveit_msgs
     octomap_msgs
-    tobi_picknplace
-    katana_msgs
-    grasp_viewer
+    biron_posture_execution_msgs
 )
 
 catkin_package()
