@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.3.0</version>
+  <version>0.3.1</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -54,7 +54,7 @@
   <build_depend>moveit_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
   <build_depend>biron_posture_execution_msgs</build_depend>
-  <build_depend>object_recognition_msgs</build_depend>
+  <build_depend>grasping_msgs</build_depend>
 
   <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store
