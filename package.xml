@@ -46,7 +46,7 @@
   <build_depend>world_canvas_msgs</build_depend>
   <build_depend>dynamic_reconfigure_msgs</build_depend>
   <build_depend>nodelet_msgs</build_depend> 
-  <build_depend>openpose_ros</build_depend>
+  <build_depend>openpose_ros_msgs</build_depend>
   <build_depend>naoqi_bridge_msgs</build_depend>
   <build_depend>planning_scene_manager_msgs</build_depend>
   <build_depend>object_tracking_msgs</build_depend>
@@ -55,7 +55,7 @@
   <build_depend>octomap_msgs</build_depend>
   <build_depend>biron_posture_execution_msgs</build_depend>
   <build_depend>grasping_msgs</build_depend>
-  <build_depend>gender_and_age</build_depend>
+  <build_depend>gender_and_age_msgs</build_depend>
 
   <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store
