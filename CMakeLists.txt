@@ -29,7 +29,7 @@ generate_rosjava_messages(
     visualization_msgs
     tf2_msgs                 # geometry_experimental/tf2_msgs
     tf
-    gender_and_age
+    gender_and_age_msgs
     ar_track_alvar_msgs      # sniekum/ar_track_alvar_msgs
     uuid_msgs                # ros-geographic-info/unique_identifier
     yocs_msgs                # yujinrobot/yocs_msgs
@@ -48,7 +48,7 @@ generate_rosjava_messages(
     nodelet_msgs
     openni2_tracker_msgs
     tobi_world_msgs
-    openpose_ros
+    openpose_ros_msgs
     naoqi_bridge_msgs
     planning_scene_manager_msgs
     object_tracking_msgs
