@@ -18,66 +18,8 @@
   <depend>rosjava_build_tools</depend>
   <depend>genjava</depend>
 
-  <depend>std_msgs</depend>
-  <depend>rosgraph_msgs</depend>            # ros/ros_comm_msgs
-  <depend>std_srvs</depend>
-  <depend>rosjava_test_msgs</depend>        # rosjava/rosjava_test_msgs
-  <depend>actionlib_msgs</depend>           # ros/common_msgs
-  <depend>diagnostic_msgs</depend>
-  <depend>geometry_msgs</depend>
-  <depend>nav_msgs</depend>
-  <depend>sensor_msgs</depend>
-  <depend>shape_msgs</depend>
-  <depend>stereo_msgs</depend>
-  <depend>trajectory_msgs</depend>
-  <depend>visualization_msgs</depend>
-  <depend>tf2_msgs</depend>                 # geometry_experimental/tf2_msgs
-  <depend>ar_track_alvar_msgs</depend>      # sniekum/ar_track_alvar_msgs
-  <depend>uuid_msgs</depend>                # ros-geographic-info/unique_identifier
-  <depend>yocs_msgs</depend>                # yujinrobot/yocs_msgs
-  <depend>concert_msgs</depend>             # robotics-in-concert/rocon_msgs
-  <depend>concert_service_msgs</depend>
-  <depend>gateway_msgs</depend>
-  <depend>rocon_app_manager_msgs</depend>
-  <depend>rocon_device_msgs</depend>
-  <depend>rocon_interaction_msgs</depend>
-  <depend>rocon_service_pair_msgs</depend>
-  <depend>rocon_std_msgs</depend>
-  <depend>rocon_tutorial_msgs</depend>
-  <depend>scheduler_msgs</depend>
-  <depend>world_canvas_msgs</depend>
-  <depend>dynamic_reconfigure_msgs</depend>
-  <depend>dynamic_reconfigure</depend>
-  <depend>nodelet_msgs</depend> 
-  <depend>nodelet</depend>
-  <depend>openpose_ros_msgs</depend>
-  <depend>naoqi_bridge_msgs</depend>
-  <depend>planning_scene_manager_msgs</depend>
-  <depend>object_tracking_msgs</depend>
-  <depend>augmented_manipulation_msgs</depend>
-  <depend>moveit_msgs</depend>
-  <depend>octomap_msgs</depend>
-  <depend>biron_posture_execution_msgs</depend>
-  <depend>grasping_msgs</depend>
-  <depend>gender_and_age_msgs</depend>
-  <depend>common_msgs</depend>
-  <depend>control_msgs</depend>
-  <depend>actionlib</depend>
-  <depend>people_msgs</depend>
-  <depend>tobi_world_msgs</depend>
-  <depend>object_recognition_msgs</depend>
   
-
-  <!-- Disabled until it is released for kinetic
-  <depend>map_store</depend>                # ros-planning/map_store
-  -->
-  <depend>move_base_msgs</depend>           # ros-planning/navigation
-  <depend>openni2_tracker_msgs</depend>
-  <depend>tf</depend>
-  <!-- Temporary requirement so move_base_msgs compiles - remove once
-       https://github.com/ros-planning/navigation/pull/312 is fixed and released.
-  -->
-  <depend>roscpp</depend>           # ros-planning/navigation
+  <depend>roscpp</depend>           
 
   
 </package>

@@ -13,7 +13,6 @@ set(MESSAGES
     std_srvs
     rosjava_test_msgs        # rosjava/rosjava_test_msgs
     actionlib_msgs           # ros/common_msgs
-    common_msgs
     diagnostic_msgs
     geometry_msgs
     nav_msgs
@@ -25,20 +24,13 @@ set(MESSAGES
     tf2_msgs                 # geometry_experimental/tf2_msgs
     tf
     gender_and_age_msgs
-    ar_track_alvar_msgs      # sniekum/ar_track_alvar_msgs
-    uuid_msgs                # ros-geographic-info/unique_identifier
-    yocs_msgs                # yujinrobot/yocs_msgs
-    gateway_msgs
-    world_canvas_msgs
-    scheduler_msgs
+    uuid_msgs           
     move_base_msgs           # ros-planning/navigation
     control_msgs             # https://github.com/ros-controls/control_msgs.git
     actionlib
     people_msgs
-    dynamic_reconfigure_msgs
     dynamic_reconfigure
     nodelet
-    nodelet_msgs
     openni2_tracker_msgs
     tobi_world_msgs
     openpose_ros_msgs
@@ -58,11 +50,9 @@ set(MESSAGES
 # Catkin
 ##############################################################################
 
-find_package(catkin REQUIRED genjava)
+find_package(catkin REQUIRED genjava ${MESSAGES})
 
-catkin_package(
-  CATKIN_DEPENDS ${MESSAGES}
-)
+
 
 generate_rosjava_messages(
   PACKAGES ${MESSAGES}
