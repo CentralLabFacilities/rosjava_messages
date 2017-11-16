@@ -5,14 +5,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(rosjava_messages)
 
-##############################################################################
-# Catkin
-##############################################################################
+set(MESSAGES 
+    roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
 
-find_package(catkin REQUIRED genjava)
-
-generate_rosjava_messages(
-  PACKAGES
     std_msgs
     rosgraph_msgs            # ros/ros_comm_msgs
     std_srvs
@@ -37,10 +32,8 @@ generate_rosjava_messages(
     world_canvas_msgs
     scheduler_msgs
     move_base_msgs           # ros-planning/navigation
-    map_store                # ros-planning/map_store
     control_msgs             # https://github.com/ros-controls/control_msgs.git
     actionlib
-    roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
     people_msgs
     dynamic_reconfigure_msgs
     dynamic_reconfigure
@@ -58,6 +51,21 @@ generate_rosjava_messages(
     biron_posture_execution_msgs
     object_recognition_msgs
     grasping_msgs
+)
+
+
+##############################################################################
+# Catkin
+##############################################################################
+
+find_package(catkin REQUIRED genjava)
+
+catkin_package(
+  CATKIN_DEPENDS ${MESSAGES}
+)
+
+generate_rosjava_messages(
+  PACKAGES ${MESSAGES}
 )
 
 catkin_package()

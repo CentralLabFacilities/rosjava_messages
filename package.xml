@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>rosjava_messages</name>
   <version>0.3.1</version>
   <description>
@@ -14,60 +14,70 @@
   <license>Apache 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>rosjava_build_tools</build_depend>
-  <build_depend>genjava</build_depend>
-  <build_depend>std_msgs</build_depend>
-  <build_depend>rosgraph_msgs</build_depend>            # ros/ros_comm_msgs
-  <build_depend>std_srvs</build_depend>
-  <build_depend>rosjava_test_msgs</build_depend>        # rosjava/rosjava_test_msgs
-  <build_depend>actionlib_msgs</build_depend>           # ros/common_msgs
-  <build_depend>diagnostic_msgs</build_depend>
-  <build_depend>geometry_msgs</build_depend>
-  <build_depend>nav_msgs</build_depend>
-  <build_depend>sensor_msgs</build_depend>
-  <build_depend>shape_msgs</build_depend>
-  <build_depend>stereo_msgs</build_depend>
-  <build_depend>trajectory_msgs</build_depend>
-  <build_depend>visualization_msgs</build_depend>
-  <build_depend>tf2_msgs</build_depend>                 # geometry_experimental/tf2_msgs
-  <build_depend>ar_track_alvar_msgs</build_depend>      # sniekum/ar_track_alvar_msgs
-  <build_depend>uuid_msgs</build_depend>                # ros-geographic-info/unique_identifier
-  <build_depend>yocs_msgs</build_depend>                # yujinrobot/yocs_msgs
-  <build_depend>concert_msgs</build_depend>             # robotics-in-concert/rocon_msgs
-  <build_depend>concert_service_msgs</build_depend>
-  <build_depend>gateway_msgs</build_depend>
-  <build_depend>rocon_app_manager_msgs</build_depend>
-  <build_depend>rocon_device_msgs</build_depend>
-  <build_depend>rocon_interaction_msgs</build_depend>
-  <build_depend>rocon_service_pair_msgs</build_depend>
-  <build_depend>rocon_std_msgs</build_depend>
-  <build_depend>rocon_tutorial_msgs</build_depend>
-  <build_depend>scheduler_msgs</build_depend>
-  <build_depend>world_canvas_msgs</build_depend>
-  <build_depend>dynamic_reconfigure_msgs</build_depend>
-  <build_depend>nodelet_msgs</build_depend> 
-  <build_depend>openpose_ros_msgs</build_depend>
-  <build_depend>naoqi_bridge_msgs</build_depend>
-  <build_depend>planning_scene_manager_msgs</build_depend>
-  <build_depend>object_tracking_msgs</build_depend>
-  <build_depend>augmented_manipulation_msgs</build_depend>
-  <build_depend>moveit_msgs</build_depend>
-  <build_depend>octomap_msgs</build_depend>
-  <build_depend>biron_posture_execution_msgs</build_depend>
-  <build_depend>grasping_msgs</build_depend>
-  <build_depend>gender_and_age_msgs</build_depend>
+
+  <depend>rosjava_build_tools</depend>
+  <depend>genjava</depend>
+
+  <depend>std_msgs</depend>
+  <depend>rosgraph_msgs</depend>            # ros/ros_comm_msgs
+  <depend>std_srvs</depend>
+  <depend>rosjava_test_msgs</depend>        # rosjava/rosjava_test_msgs
+  <depend>actionlib_msgs</depend>           # ros/common_msgs
+  <depend>diagnostic_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>stereo_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2_msgs</depend>                 # geometry_experimental/tf2_msgs
+  <depend>ar_track_alvar_msgs</depend>      # sniekum/ar_track_alvar_msgs
+  <depend>uuid_msgs</depend>                # ros-geographic-info/unique_identifier
+  <depend>yocs_msgs</depend>                # yujinrobot/yocs_msgs
+  <depend>concert_msgs</depend>             # robotics-in-concert/rocon_msgs
+  <depend>concert_service_msgs</depend>
+  <depend>gateway_msgs</depend>
+  <depend>rocon_app_manager_msgs</depend>
+  <depend>rocon_device_msgs</depend>
+  <depend>rocon_interaction_msgs</depend>
+  <depend>rocon_service_pair_msgs</depend>
+  <depend>rocon_std_msgs</depend>
+  <depend>rocon_tutorial_msgs</depend>
+  <depend>scheduler_msgs</depend>
+  <depend>world_canvas_msgs</depend>
+  <depend>dynamic_reconfigure_msgs</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>nodelet_msgs</depend> 
+  <depend>nodelet</depend>
+  <depend>openpose_ros_msgs</depend>
+  <depend>naoqi_bridge_msgs</depend>
+  <depend>planning_scene_manager_msgs</depend>
+  <depend>object_tracking_msgs</depend>
+  <depend>augmented_manipulation_msgs</depend>
+  <depend>moveit_msgs</depend>
+  <depend>octomap_msgs</depend>
+  <depend>biron_posture_execution_msgs</depend>
+  <depend>grasping_msgs</depend>
+  <depend>gender_and_age_msgs</depend>
+  <depend>common_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>people_msgs</depend>
+  <depend>tobi_world_msgs</depend>
+  <depend>object_recognition_msgs</depend>
+  
 
   <!-- Disabled until it is released for kinetic
-  <build_depend>map_store</build_depend>                # ros-planning/map_store
+  <depend>map_store</depend>                # ros-planning/map_store
   -->
-  <build_depend>move_base_msgs</build_depend>           # ros-planning/navigation
-  <build_depend>openni2_tracker_msgs</build_depend>
-  <build_depend>tf</build_depend>
+  <depend>move_base_msgs</depend>           # ros-planning/navigation
+  <depend>openni2_tracker_msgs</depend>
+  <depend>tf</depend>
   <!-- Temporary requirement so move_base_msgs compiles - remove once
        https://github.com/ros-planning/navigation/pull/312 is fixed and released.
   -->
-  <build_depend>roscpp</build_depend>           # ros-planning/navigation
+  <depend>roscpp</depend>           # ros-planning/navigation
 
-  <run_depend>rosjava_build_tools</run_depend>
-  <run_depend>genjava</run_depend>
+  
 </package>
