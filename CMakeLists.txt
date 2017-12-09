@@ -23,7 +23,6 @@ set(MESSAGES
     visualization_msgs
     tf2_msgs                 # geometry_experimental/tf2_msgs
     tf
-    gender_and_age_msgs
     uuid_msgs           
     move_base_msgs           # ros-planning/navigation
     control_msgs             # https://github.com/ros-controls/control_msgs.git
@@ -31,16 +30,8 @@ set(MESSAGES
     people_msgs
     dynamic_reconfigure
     nodelet
-    openni2_tracker_msgs
-    tobi_world_msgs
-    openpose_ros_msgs
-    naoqi_bridge_msgs
-    planning_scene_manager_msgs
-    object_tracking_msgs
-    augmented_manipulation_msgs
     moveit_msgs
     octomap_msgs
-    biron_posture_execution_msgs
     object_recognition_msgs
     grasping_msgs
 )
@@ -59,10 +50,3 @@ generate_rosjava_messages(
 )
 
 catkin_package()
-
-##############################################################################
-# Installation
-##############################################################################
-
-install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/ 
-        DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages)
