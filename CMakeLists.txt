@@ -8,6 +8,7 @@ project(rosjava_messages)
 set(MESSAGES 
     roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
 
+    augmented_manipulation_msgs 
     std_msgs
     rosgraph_msgs            # ros/ros_comm_msgs
     std_srvs
