@@ -17,7 +17,6 @@ set(MESSAGES
     biron_posture_execution_msgs
     openpose_ros_msgs
     openni2_tracker_msgs
-    bonsai_msgs
 
     std_msgs
     rosgraph_msgs            # ros/ros_comm_msgs
