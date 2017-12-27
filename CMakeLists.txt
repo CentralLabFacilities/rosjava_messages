@@ -9,15 +9,6 @@ set(MESSAGES
     roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
 
     augmented_manipulation_msgs 
-    naoqi_bridge_msgs
-    planning_scene_manager_msgs
-    tobi_world_msgs
-    object_tracking_msgs
-    gender_and_age_msgs
-    biron_posture_execution_msgs
-    openpose_ros_msgs
-    openni2_tracker_msgs
-
     std_msgs
     rosgraph_msgs            # ros/ros_comm_msgs
     std_srvs
