@@ -37,6 +37,7 @@ set(MESSAGES
     tobi_world_msgs
     clf_perception_vision_msgs
     openpose_ros_msgs
+    gender_and_age_msgs
 )
 
 
