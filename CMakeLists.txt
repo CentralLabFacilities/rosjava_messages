@@ -36,6 +36,7 @@ set(MESSAGES
     grasping_msgs
     tobi_world_msgs
     clf_perception_vision_msgs
+    openpose_ros_msgs
 )
 
 
