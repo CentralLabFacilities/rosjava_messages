@@ -34,6 +34,8 @@ set(MESSAGES
     octomap_msgs
     object_recognition_msgs
     grasping_msgs
+    tobi_world_msgs
+    clf_perception_vision_msgs
 )
 
 
