@@ -38,6 +38,7 @@ set(MESSAGES
     clf_perception_vision_msgs
     openpose_ros_msgs
     gender_and_age_msgs
+    bonsai_msgs
 )
 
 
