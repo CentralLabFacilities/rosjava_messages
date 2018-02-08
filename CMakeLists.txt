@@ -34,11 +34,6 @@ set(MESSAGES
     octomap_msgs
     object_recognition_msgs
     grasping_msgs
-    tobi_world_msgs
-    clf_perception_vision_msgs
-    openpose_ros_msgs
-    gender_and_age_msgs
-    bonsai_msgs
 )
 
 
