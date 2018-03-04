@@ -35,7 +35,6 @@ set(MESSAGES
     object_recognition_msgs
     grasping_msgs
     map_msgs
-    pcl_ros
 )
 
 
